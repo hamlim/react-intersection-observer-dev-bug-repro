@@ -1,5 +1,8 @@
 # react-intersection-observer-dev-bug-repro
 
+> [!IMPORTANT]
+> This issue has been fixed in version `9.5.3` ([PR](https://github.com/thebuilder/react-intersection-observer/pull/650))
+
 This repo is a simple Next app that is using the `react-intersection-observer` library (at version `8.34.0`).
 
 In development, the `onChange` handler for the `<InView>` compponent doesn't get called at all - however when building the app locally and then running the `onChange` handler does get called correctly.
